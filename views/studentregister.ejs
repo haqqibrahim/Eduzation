@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Signup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/StudentSignup.css">
+    <link rel="image" href="/img/Group 21.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-image" style="
+    background-color: rgba(82, 1, 212, 0.05);
+    background-image: url('/img/Group 21.png');
+    background-repeat: no-repeat;
+    background-position: 170px 250px;
+    background-size: 400px;">
+     <div >
+        <div class="container div1">
+            <p class="txt1">Assist students in <br> improving and raising <br> their grades.</p>
+            <p class="txt2">Set up your account today and be more productive to students</p>
+          </div>
+          <!-- <div>
+            <img src="/img/Group 21.png" alt="" width="310px" height="350px" style="margin-left: 170px; margin-top: 50px;">
+          </div> -->
+          <div class="div2">
+            <p class="p1">
+              Create an account
+            </p>
+            <div class="reference">
+              <a href="/studentregister" class="Teachers-Link">
+                Student
+              </a>
+              <div class="Vertical-Line"></div>
+              <a href="teacherregister" class="Student-link">
+                Teacher
+              </a>
+            </div>
+          <br>
+<form action="/studentregister" method="post">
+    <div class="subdiv">
+        <div>
+          <label for="fname" class="fname">
+            First Name
+          </label>
+          <label for="lname" class="lname">
+            Last Name
+          </label>
+        </div>
+        <div>
+          <input type="text" id="fname" placeholder="James" class="inp1" name="firstName">
+          <input type="text" id="lname" placeholder="White" class="inp2" name="lastName"> 
+        </div>
+          <div class="subdiv">
+            <label for="Teachers" class="Teachers">
+             Matric Number
+            </label>
+            <label for="Course" class="Course">
+              Course
+            </label>
+          <br>
+            <input type="text" id="Teachers" name="matricNumber" class="inp3" placeholder="CLU20014-888">
+            <input type="text" id="Course" name="department" placeholder="Software Engineeering" class="inp4">
+          <div>
+            <div class="subdiv">
+              <label for="Email" class="Email">
+                Email
+              </label>
+            <br>
+              <input type="email" name="username" id="Email" placeholder="Jameswhite@gmail.com" class="inp5">
+            </div> 
+              <div class="subdiv">
+                <label for="Password" class="Password">
+                  Password
+                </label>
+              <br>
+                <input type="password" name="password" autocomplete="current-password" id="Password" placeholder="Minimum 8 Characters" class="inp6">
+              </div>
+            <div>
+              <p class="Terms-text">
+                You agree to our <a href="#" class="Terms-link">Terms</a> and <a href="#" class="Terms-link">Private Policy</a> by clicking <br>create my account.
+              </p>
+            </div>
+           <button type="submit" class="btn form-control">
+              <div>
+                  Create my account
+                </div>
+           </button>
+            <div>
+              <p class="Login-text">Have an account? <a href="/studentlogin" class="Terms-link">Log in</a></p>
+            </div>
+          </div>
+        </div>
+    </div>
+</form>
+        </div>
+        </div>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>

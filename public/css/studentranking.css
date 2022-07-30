@@ -1,0 +1,13 @@
+.body {
+    border: 3px solid #F3EFFA;
+    border-radius: 40px;
+    height: 800px;
+    width: 1050px;
+    margin-top: 400px
+}
+
+.rank {
+   margin-top: 20px;
+   width: 700px;
+   margin-left: 170px;
+}

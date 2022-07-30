@@ -1,0 +1,212 @@
+body {
+  font-family: 'Poppins';
+}
+
+.div1 {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.txt1 {
+  font-weight: 700;
+  width: 300px;
+  font-size: 25px;
+  margin-bottom: 0px;
+  padding-bottom: 18px;
+}
+
+.txt2 {
+  color: rgba(147, 147, 147, 1);
+  width: 370px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+
+.div2 {
+  position: absolute; top: 40px; right: 180px;
+  width: auto;
+}
+
+.reference {
+  position: absolute; right: 150px;
+  display: flex;
+}
+
+.Student-link {
+  text-decoration: none;
+  padding-right: 10px;
+  color: rgb(156, 155, 155);
+  font-weight: 500;
+  position: relative;
+}
+
+.Student-link:hover {
+  color: rgba(82, 1, 212, 1);
+}
+
+.Vertical-Line {
+  border-left: 2px solid black;
+  height: 15px;
+  margin-top: 5px;
+}
+
+.Teachers-Link {
+  text-decoration: none;
+  padding-left: 10px;
+  color: rgba(82, 1, 212, 1);
+  font-weight: 500;
+}
+
+
+.fname {
+  font-weight: 500;
+  font-size: 14px;
+  position: relative; top: -5px;
+}
+
+.lname {
+  padding-left: 130px;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative; top: -5px;
+}
+
+.Teachers {
+  font-weight: 500;
+  font-size: 14px;
+  position: relative; top: -5px;
+}
+
+.Course { 
+  font-weight: 500;
+  padding-left: 70px;
+  font-size: 14px;
+  position: relative; top: -5px;
+}
+
+.Email {
+  font-weight: 500;
+  font-size: 14px;
+  position: relative; top: -5px;
+}
+
+.Password {
+  font-weight: 500;
+  font-size: 14px;
+  position: relative; top: -5px;
+}
+
+.inp1 {
+  border: 1px solid;
+  border-radius: 8px;
+  height: 50px;
+  width: 200px;
+  padding-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.inp2 {
+  border-radius: 5px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-top: 0px;
+  width: 200px;
+  font-size: 14px;
+}
+
+.inp3 {
+  border: 1px solid;
+  border-radius: 8px;
+  height: 50px;
+  width: 150px;
+  padding-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.inp4 {
+  border-radius: 5px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-top: 0px;
+  width: 250px;
+  font-size: 14px;
+}
+
+.inp5 {
+  border-radius: 5px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-top: 0px;
+  width: 410px;
+  font-size: 14px;
+}
+
+.inp6 {
+  border-radius: 5px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-top: 0px;
+  width: 410px;
+  font-size: 14px;
+}
+
+.p1 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+.subdiv {
+  margin-top: 20px;
+}
+
+.Terms-text{
+  color: rgb(156, 155, 155);
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.Terms-link {
+  text-decoration: none;
+  color: rgba(82, 1, 212, 1);
+  font-weight: 500;
+}
+
+.Terms-link:hover {
+  color: rgba(82, 1, 212, 1);
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: rgba(82, 1, 212, 1);
+  color: white;
+  border-radius: 20px;
+  height: 50px;
+  padding-top: 13px;
+  font-weight: 500;
+  
+}
+
+.btn:hover {
+  background-color: rgba(82, 1, 212, 1);
+  color: white;
+}
+
+.Login-text {
+  color: rgb(156, 155, 155);
+  margin-top: 5px;
+  padding-left: 120px; 
+  font-size: 12px;
+}
